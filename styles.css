@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  background: #fdf6e3;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  background: #2e8b57;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.intro, .chapter {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.chapter-list {
+  list-style: none;
+}
+
+.chapter-list li {
+  margin-bottom: 10px;
+}
+
+.chapter-list a {
+  text-decoration: none;
+  color: #2e8b57;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #555;
+}
