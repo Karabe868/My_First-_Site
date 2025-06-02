@@ -1,0 +1,46 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Georgia, serif;
+  color: #333;
+  padding: 40px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.author {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.novel-excerpt {
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #218838;
+}
